@@ -1,0 +1,6 @@
+torch
+torchvision
+tensorboard
+opencv-python
+matplotlib~=3.8.0
+pillow~=10.2.0
