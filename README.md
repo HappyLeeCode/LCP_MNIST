@@ -193,11 +193,11 @@ tensorboard--logdir="(路径替换为自己的路径)"
 
 <center>表2 CNN模型在不同优化器测试后的最终准确率</center>
 
-| trained-model | 优化器 |      | epoch |
-| :-----------: | :----: | :--: | :---: |
-|      CNN      |  SGD   | 93%  |  10   |
-|      CNN      |  Adam  | 97%  |  10   |
-|   CNN(best)   |  Adam  | 99%  |  10   |
+| trained-model | 优化器 | Accuracy | epoch |
+| :-----------: | :----: | :------: | :---: |
+|      CNN      |  SGD   |    93%   |  10   |
+|      CNN      |  Adam  |    97%   |  10   |
+|   CNN(best)   |  Adam  |    99%   |  10   |
 
 
 
