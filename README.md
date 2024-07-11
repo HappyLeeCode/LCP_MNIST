@@ -161,13 +161,13 @@ class CNN(nn.Module):
 
 #### **训练结果可视化**
 
-​	利用tensorboard，使用时可在pycharm的终端下使用命令：
+​		利用tensorboard，使用时可在pycharm的终端下使用命令：
 
 ```shell
 tensorboard--logdir="(路径替换为自己的路径)"
 ```
 
-​	这会生成一个端口，进入端口即可查看记录数据
+​		这会生成一个端口，进入端口即可查看记录数据
 
 #### **模型测试**
 
@@ -217,7 +217,7 @@ tensorboard--logdir="(路径替换为自己的路径)"
 
 ## 五、制作自己的数据集
 
-our_dataset文件夹下有三个文件夹，input、output、test_data。
+​		our_dataset文件夹下有三个文件夹，input、output、test_data。
 
 - **input**文件夹下，保存未处理的手写图片，比如保存数字1的手写图片，依次类推。
 - **output**文件夹下，保存从input文件夹中读取的所有图片，并经过了相关的处理。
@@ -229,9 +229,9 @@ our_dataset文件夹下有三个文件夹，input、output、test_data。
 
 #### 手写图片制作
 
-打开windows画板，或者使用平板，写一些数字，然后用图片编辑软件裁剪图片，使得数字大概在裁剪图片的中心，然后在our_dataset/input文件夹下的10个文件夹下放入对应的手写数字图片。
+​		打开windows画板，或者使用平板，写一些数字，然后用图片编辑软件裁剪图片，使得数字大概在裁剪图片的中心，然后在our_dataset/input文件夹下的10个文件夹下放入对应的手写数字图片。
 
-使用平板写的10个数字如下：
+​		使用平板写的10个数字如下：
 
 ![myHandWriting](https://gitee.com/martin64/mnist-pytorch/raw/master/images/digitaContens.jpg)
 
@@ -247,6 +247,6 @@ our_dataset文件夹下有三个文件夹，input、output、test_data。
 
 ​运行tools下的**evaluate.py**。
 
-  话不多说，直接放测试结果图（自设置CNN+Adam）：
+​		话不多说，直接放测试结果图（自设置CNN+Adam）：
 
 ![myHandWriting](./img/final.png)
