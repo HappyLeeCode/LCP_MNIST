@@ -229,9 +229,9 @@ our_dataset文件夹下有三个文件夹，input、output、test_data。
 
 #### 手写图片制作
 
-​		打开windows画板，或者使用平板，写一些数字，然后用图片编辑软件裁剪图片，使得数字大概在裁剪图片的中心，然后在our_dataset/input文件夹下的10个文件夹下放入对应的手写数字图片。
+打开windows画板，或者使用平板，写一些数字，然后用图片编辑软件裁剪图片，使得数字大概在裁剪图片的中心，然后在our_dataset/input文件夹下的10个文件夹下放入对应的手写数字图片。
 
-​		我使用平板写的10个数字如下：
+使用平板写的10个数字如下：
 
 ![myHandWriting](https://gitee.com/martin64/mnist-pytorch/raw/master/images/digitaContens.jpg)
 
@@ -247,6 +247,6 @@ our_dataset文件夹下有三个文件夹，input、output、test_data。
 
 ​运行tools下的**evaluate.py**。
 
-话不多说，直接放测试结果图（自设置CNN+Adam）：
+  话不多说，直接放测试结果图（自设置CNN+Adam）：
 
 ![myHandWriting](./img/final.png)
