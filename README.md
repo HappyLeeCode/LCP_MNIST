@@ -245,6 +245,8 @@ our_dataset文件夹下有三个文件夹，input、output、test_data。
 
 ## 六、最终测试效果
 
-​	运行tools下的evaluate.py，话不多说，直接放图（自设置CNN+Adam）：
+​运行tools下的**evaluate.py**。
+
+      话不多说，直接放图（自设置CNN+Adam）：
 
 ![myHandWriting](./img/final.png)
